@@ -1,0 +1,21 @@
+
+/* Responsive for small device like mobile phone */
+
+@media screen and (max-width:570px) {
+    .navbar-list {
+        display: none;
+        
+    } 
+
+    .title-logo {
+        margin-left: 40px;
+    }
+
+    .nav-icon {
+        display: inline;
+        margin-top: 40px;
+        margin-right: 40px;
+    }
+   
+} 
+
