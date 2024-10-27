@@ -2,6 +2,7 @@
 /* Responsive for small device like mobile phone */
 
 @media screen and (max-width:570px) {
+    /* Header section */
     .navbar-list {
         display: none;
         
@@ -9,13 +10,36 @@
 
     .title-logo {
         margin-left: 40px;
+        margin-top: 80px;
     }
 
     .nav-icon {
         display: inline;
-        margin-top: 40px;
+        margin-top: 80px;
         margin-right: 40px;
-    }
+    } 
+
+    /* banner section */
+.banner {
+    display: block;
+    padding: 40px;
+} 
+
+.banner-title {
+    font-size: 2rem;
+} 
+
+.banner-btn-join {
+    width: 180px;
+    height: 54px;
+} 
+
+.banner-btn-download {
+
+    width: 180px;
+    height: 54px;
+
+}
    
 } 
 

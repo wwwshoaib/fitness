@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Freehand&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
 
     font-family: "Inter", serif;
 }
 
-/* header section */
+:root {
+    --primary-color: rgb(255, 255, 255);
+    --btn-primary-color: rgb(230, 83, 60);
 
-header {
+}
+
+
+/* ||Header Section || */
+
+.header {
     max-width: 1366px;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
     height: 700px;
@@ -35,7 +44,7 @@ nav {
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 1150px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -43,12 +52,11 @@ nav {
     display: flex;
     margin-top: 40px;
     width: 420px;
-    height: 30px;
+    height: 35px;
+    padding-top: 8px;
+   
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-    
-    
-
 }
 
 .nav-list {
@@ -62,8 +70,12 @@ nav {
     height: 30px;
     background: rgb(230, 83, 60);
     padding-left: 20px;
-    
 
+    
+    
+  
+    
+    
 }
 
 
@@ -71,11 +83,75 @@ nav {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 400;
-
-
-} 
+}
 
 .nav-icon {
     display: none;
+
+}
+
+
+
+/* ||Banner Section || */
+
+.banner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    align-items: center;
     
+   
+}
+
+.banner>img {
+    width: 100%;
+}
+
+.banner-text {
+
+    width: 400px;
+    min-width: 250px;
+    
+  
+
+}  
+
+
+
+.banner-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--primary-color);
+} 
+
+
+.shape-color {
+    font-family: "Dancing Script", cursive;
+    font-size: 5rem;
+}
+
+.banner-btn-join {
+    background: var(--btn-primary-color);
+    border-radius: 42px;
+    width: 224px;
+    height: 54px;
+    color: var(--primary-color);
+    font-size: 1rem;
+}  
+
+.banner-btn-download {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #434343;
+    border-radius: 42px;
+    width: 224px;
+    height: 54px;
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.banner-btn {
+    display: flex;
+    gap : 20px;
 }
