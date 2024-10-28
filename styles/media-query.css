@@ -1,12 +1,12 @@
-
 /* Responsive for small device like mobile phone */
 
 @media screen and (max-width:570px) {
+
     /* Header section */
     .navbar-list {
         display: none;
-        
-    } 
+
+    }
 
     .title-logo {
         margin-left: 40px;
@@ -17,29 +17,48 @@
         display: inline;
         margin-top: 80px;
         margin-right: 40px;
-    } 
+    }
 
     /* banner section */
-.banner {
-    display: block;
-    padding: 40px;
-} 
+    .banner {
+        display: block;
+        padding: 40px;
+    }
 
-.banner-title {
-    font-size: 2rem;
-} 
+    .banner-title {
+        font-size: 2rem;
+    }
 
-.banner-btn-join {
-    width: 180px;
-    height: 54px;
-} 
+    .banner-btn-join {
+        width: 180px;
+        height: 54px;
+    }
 
-.banner-btn-download {
+    .banner-btn-download {
 
-    width: 180px;
-    height: 54px;
+        width: 180px;
+        height: 54px;
+
+    }
+
+    /* Change your habit section */
+
+    .change-habit {
+        display: block;
+
+    }
+
+
+    .type-training {
+        display: block;
+        margin-left: 110px;
+
+
+    }
+
+    .training {
+        margin-bottom: 65px;
+    }
+
 
 }
-   
-} 
-

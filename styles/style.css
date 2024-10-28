@@ -5,7 +5,16 @@
 * {
 
     font-family: "Inter", serif;
+
+}  
+
+main {
+
+    background: rgb(0, 0, 0);
+
 }
+
+
 
 :root {
     --primary-color: rgb(255, 255, 255);
@@ -13,13 +22,25 @@
 
 }
 
+section {
+    background: rgb(0, 0, 0);
+    padding-bottom: 100px;
+}
+
+
+
 
 /* ||Header Section || */
 
 .header {
     max-width: 1366px;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-    height: 700px;
+
+  
+}
+
+#header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
 /* logo */
@@ -54,7 +75,7 @@ nav {
     width: 420px;
     height: 35px;
     padding-top: 8px;
-   
+
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
 }
@@ -70,12 +91,6 @@ nav {
     height: 30px;
     background: rgb(230, 83, 60);
     padding-left: 20px;
-
-    
-    
-  
-    
-    
 }
 
 
@@ -101,8 +116,9 @@ nav {
     gap: 130px;
     justify-content: center;
     align-items: center;
-    
-   
+
+
+
 }
 
 .banner>img {
@@ -111,12 +127,12 @@ nav {
 
 .banner-text {
 
-    width: 400px;
+    width: 420px;
     min-width: 250px;
-    
-  
 
-}  
+
+
+}
 
 
 
@@ -124,7 +140,7 @@ nav {
     font-size: 3rem;
     font-weight: 800;
     color: var(--primary-color);
-} 
+}
 
 
 .shape-color {
@@ -139,7 +155,7 @@ nav {
     height: 54px;
     color: var(--primary-color);
     font-size: 1rem;
-}  
+}
 
 .banner-btn-download {
     border: 1px solid rgb(255, 255, 255);
@@ -153,5 +169,125 @@ nav {
 
 .banner-btn {
     display: flex;
-    gap : 20px;
+    gap: 20px;
 }
+
+
+/* change your habit section */
+
+.change-habit {
+
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+
+
+
+
+}
+
+.habit {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.habit-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+
+}
+
+.habit-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+}
+
+.type-training {
+    display: flex;
+    width: 231px;
+    gap: 70px;
+} 
+
+.training {
+    width: 231px;
+    height: 274px;
+}
+
+.training-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.training-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.training>img {
+    border-radius: 90px;
+
+}    
+
+
+/* Responsive for small device like mobile phone */
+
+@media screen and (max-width:570px) {
+    /* Header section */
+    .navbar-list {
+        display: none;
+        
+    } 
+
+    .title-logo {
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+
+    .nav-icon {
+        display: inline;
+        margin-top: 80px;
+        margin-right: 40px;
+    } 
+
+    /* banner section */
+.banner {
+    display: block;
+    padding: 40px;
+} 
+
+.banner-title {
+    font-size: 2rem;
+} 
+
+.banner-btn-join {
+    width: 180px;
+    height: 54px;
+} 
+
+.banner-btn-download {
+
+    width: 180px;
+    height: 54px;
+
+} 
+
+.change-habit {
+    display: block;
+}  
+
+
+.type-training {
+    display: block;
+   
+}
+
+   
+} 
+
