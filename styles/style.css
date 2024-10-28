@@ -274,4 +274,63 @@ nav {
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
+}  
+
+/* client review section */
+
+.client-review {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgb(34, 34, 34);
+    text-align: center;
+    padding-bottom: 50px;
+}   
+
+
+.client-review-title-area {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.5rem;
+    padding-top: 30px;
+    padding-bottom: 60px;
+} 
+
+.reviewer {
+    width: 400px;
+    height: 400px;
+    border: 1px solid wheat;
+} 
+
+.review-writing {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    padding-left: 20px;
+    padding-top: 40px;
+    text-align: left;
+} 
+.client {
+    padding: 20px;
+  
+}
+.client-pic {
+    width: 180px;
+    height: 80px;
+    border-radius: 45px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+   
+} 
+
+.client-pic>img {
+    width: 100%;
+    
+} 
+
+.reviewers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 80px;
 }
