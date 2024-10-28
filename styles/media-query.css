@@ -58,6 +58,24 @@
 
     .training {
         margin-bottom: 65px;
+    }   
+
+    /* run an extra mile section */
+
+    .run-an-extra-mile {
+        display: block;
+    } 
+
+    
+    .run-extra-hero>img {
+        width: 90%;
+
+    } 
+
+    .run-extra-text {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
     }
 
 

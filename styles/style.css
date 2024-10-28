@@ -6,7 +6,7 @@
 
     font-family: "Inter", serif;
 
-}  
+}
 
 main {
 
@@ -36,7 +36,7 @@ section {
     max-width: 1366px;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 
-  
+
 }
 
 #header {
@@ -121,7 +121,8 @@ nav {
 
 }
 
-.banner>img {
+.banner>img,
+.run-extra-hero>img {
     width: 100%;
 }
 
@@ -148,7 +149,7 @@ nav {
     font-size: 5rem;
 }
 
-.banner-btn-join {
+.banner-btn-join, .run-btn {
     background: var(--btn-primary-color);
     border-radius: 42px;
     width: 224px;
@@ -208,7 +209,7 @@ nav {
     display: flex;
     width: 231px;
     gap: 70px;
-} 
+}
 
 .training {
     width: 231px;
@@ -233,61 +234,44 @@ nav {
 .training>img {
     border-radius: 90px;
 
-}    
+}
 
+/* Run an extra mile section starts here */
 
-/* Responsive for small device like mobile phone */
-
-@media screen and (max-width:570px) {
-    /* Header section */
-    .navbar-list {
-        display: none;
-        
-    } 
-
-    .title-logo {
-        margin-left: 40px;
-        margin-top: 80px;
-    }
-
-    .nav-icon {
-        display: inline;
-        margin-top: 80px;
-        margin-right: 40px;
-    } 
-
-    /* banner section */
-.banner {
-    display: block;
-    padding: 40px;
-} 
-
-.banner-title {
-    font-size: 2rem;
-} 
-
-.banner-btn-join {
-    width: 180px;
-    height: 54px;
-} 
-
-.banner-btn-download {
-
-    width: 180px;
-    height: 54px;
-
-} 
-
-.change-habit {
-    display: block;
-}  
-
-
-.type-training {
-    display: block;
+.run-an-extra-mile {
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
    
 }
 
-   
-} 
+.run-extra-text {
+    width: 443px;
+    height: 290px;
+    padding-left: 40px;
+}
 
+
+
+.run-extra-hero {
+    width: 443px;
+    height: 290px;
+    padding: 40px;
+}
+
+.run-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.run-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
