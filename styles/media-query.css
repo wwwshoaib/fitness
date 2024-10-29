@@ -27,16 +27,17 @@
 
     .banner-title {
         font-size: 2rem;
+        width: 300px;
     }
 
     .banner-btn-join {
-        width: 180px;
+        width: 140px;
         height: 54px;
     }
 
     .banner-btn-download {
 
-        width: 180px;
+        width: 140px;
         height: 54px;
 
     }
@@ -58,25 +59,30 @@
 
     .training {
         margin-bottom: 65px;
-    }   
+    }
 
     /* run an extra mile section */
 
     .run-an-extra-mile {
         display: block;
-    } 
+    }
 
-    
+
+    .run-title {
+        font-size: 2rem;
+    }
+
+
     .run-extra-hero>img {
         width: 90%;
 
-    } 
+    }
 
     .run-extra-text {
         padding-top: 50px;
         padding-bottom: 50px;
         padding-left: 50px;
-    } 
+    }
 
     /* challenge part */
 
@@ -88,4 +94,45 @@
     }
 
 
+    .client-review {
+        font-size: 1rem;
+    }
+
+    /* BMI chart and BMI Calculator */
+    .BMI-title {
+
+        font-size: 2rem;
+
+    }
+
+    .BMI-description {
+
+        font-size: 12px;
+
+    }
+
+    .BMI-chart-form {
+        display: block;
+    }
+
+    .height-weight {
+        display: block;
+    }
+
+
+    .style-select-activity {
+        width: 248px;
+    }
+
+    .BMI-chart-form {
+        padding-left: 60px;
+
+    }
+
+    .BMI-form {
+
+        width: 350px;
+    }
+
+    
 }
