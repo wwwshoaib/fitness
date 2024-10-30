@@ -30,14 +30,14 @@
         width: 300px;
     } 
 
-    .banner-description, .habit-description {
+    .banner-description, .BMI-description {
         width: 280px;
-        padding: 10px;
+        padding: 20px;
     } 
 
     .habit-description {
         width: 300px;
-       padding-left: 26px;
+       padding-left: 40px;
     } 
 
     .banner-btn-join {
@@ -168,7 +168,22 @@
 
     .footer-fitness {
         padding-left: 40px;
-    }
+    } 
+
+    
+.get-started {
+    
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+
+.get-list {
+
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.2rem;
+
+}
 
 
 }
