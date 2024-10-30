@@ -32,16 +32,14 @@ section {
 
 /* ||Header Section || */
 
-.header {
+header {
     max-width: 1366px;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    background-image: linear-gradient(rgb(17, 17, 17), rgba(119, 119, 119, 1), rgb(17, 17, 17));
+   
 
 
 }
 
-#header {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-}
 
 /* logo */
 
@@ -116,6 +114,7 @@ nav {
     gap: 130px;
     justify-content: center;
     align-items: center;
+    
 
 
 
@@ -129,7 +128,7 @@ nav {
 .banner-text {
 
     width: 350px;
-    min-width: 250px;
+   
 
 
 
@@ -139,9 +138,10 @@ nav {
 
 .banner-title {
     width: 500px;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 800;
     color: var(--primary-color);
+    
 }
 
 
@@ -151,11 +151,12 @@ nav {
 }
 
 .banner-btn-join,
-.run-btn, .btn-calculate {
+.run-btn,
+.btn-calculate {
     background: var(--btn-primary-color);
     border-radius: 42px;
-    width: 224px;
-    height: 54px;
+    width: 220px;
+    height: 50px;
     color: var(--primary-color);
     font-size: 1rem;
 }
@@ -353,14 +354,14 @@ nav {
     padding-top: 50px;
 }
 
-.BMI-title {
+.BMI-title, .team-title {
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 3rem;
     font-weight: 900;
 }
 
-.BMI-description {
+.BMI-description, .team-description {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
@@ -406,7 +407,7 @@ td {
 .BMI-form {
     color: rgb(255, 255, 255);
     width: 550px;
-   
+
 
 }
 
@@ -414,7 +415,9 @@ td {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.style-input, .style-select, .style-select-activity  {
+.style-input,
+.style-select,
+.style-select-activity {
     width: 220px;
     height: 40px;
     padding: 2px 10px;
@@ -423,36 +426,138 @@ td {
     text-align: start;
     color: rgba(255, 255, 255, 0.6);
     margin: 3px;
-}  
+}
 
-.style-input, .style-select, .style-select-activity  {
+.style-input,
+.style-select,
+.style-select-activity {
     width: 220px;
     height: 40px;
-   
-} 
+
+}
 
 .style-select {
     width: 244px;
     height: 46px;
-   
 
-}  
+
+}
 
 .style-select-activity {
     width: 500px;
     height: 40px;
 
-}  
+}
 
 
 .btn-calculate {
     margin-top: 30px;
-} 
+}
 
 .height-weight {
     display: flex;
-} 
+}
 
 .BMI-chart {
     width: 300px;
+}
+
+.team-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgb(34, 34, 34);
+    text-align: center;
+
+}
+
+
+.member-1 {
+    background-image: url(../images/trainer1.png);
+    width: 330px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+.member-2 {
+    background-image: url(../images/trainer2.png);
+    width: 330px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+.member-3 {
+    background-image: url(../images/trainer3.png);
+    width: 330px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+.member-4 {
+    background-image: url(../images/shoaib.jpg);
+    width: 330px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+
+.member-5 {
+    background-image: url(../images/trainer5.png);
+    width: 330px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+.member-6 {
+    background-image: url(../images/trainer6.png);
+    width: 330px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+.member-fix-2 {
+    padding-top: 210px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.member-fix-3 {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.member-fix {
+    width: 200px;
+    height: 80px;
+   
+} 
+
+.members {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+} 
+ 
+.team-title-area {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
 }

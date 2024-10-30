@@ -52,7 +52,7 @@
 
     .type-training {
         display: block;
-        margin-left: 110px;
+        margin-left: 75px;
 
 
     }
@@ -132,7 +132,19 @@
     .BMI-form {
 
         width: 350px;
-    }
+    } 
+
+    
+.members {
+    
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding-left: 35px;
+}  
+
+.team-title {
+    font-size: 2rem;
+}
 
     
 }
