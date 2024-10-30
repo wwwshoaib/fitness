@@ -28,7 +28,17 @@
     .banner-title {
         font-size: 2rem;
         width: 300px;
-    }
+    } 
+
+    .banner-description, .habit-description {
+        width: 280px;
+        padding: 10px;
+    } 
+
+    .habit-description {
+        width: 300px;
+       padding-left: 26px;
+    } 
 
     .banner-btn-join {
         width: 140px;
@@ -39,6 +49,7 @@
 
         width: 140px;
         height: 54px;
+        gap: 10px;
 
     }
 
