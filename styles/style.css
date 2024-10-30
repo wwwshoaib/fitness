@@ -261,11 +261,13 @@ nav {
 
 .run-extra-hero {
     width: 320px;
-    height: 320px;
+    height: 350px;
     padding-left: 40px;
     padding-top: 40px;
+    padding-right: 50px;
+} 
 
-}
+
 
 .run-title {
     color: rgb(255, 255, 255);
@@ -471,6 +473,7 @@ td {
     margin: 0 auto;
     background: rgb(34, 34, 34);
     text-align: center;
+   
 
 }
 
@@ -562,7 +565,7 @@ td {
 
 .team-title-area {
     text-align: center;
-    margin-top: 80px;
+    padding-top: 100px;
     margin-bottom: 60px;
 }
 
